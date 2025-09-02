@@ -1,3 +1,7 @@
+import express from 'express'
+const app = express();
+
+
 import { Client } from 'pg';
 
 const pgClient = new Client ({
